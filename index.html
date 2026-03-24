@@ -1,0 +1,1045 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Prestige Digital - Premium Web Design Agency | High-Converting Websites</title>
+    <meta name="description" content="We build high-converting websites for businesses that want to grow. Professional web design services from R5,000. Transform your online presence today."/>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Prestige Digital - Premium Web Design Agency"/>
+    <meta property="og:description" content="We build high-converting websites for businesses that want to grow. Professional web design services from R5,000."/>
+    <meta property="og:url" content="https://www.onspace.ai"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Prestige Digital"/>
+    <meta property="og:image" content="https://cdn-ai.onspace.ai/onspace/project/screenshot/online/pre-site/9bgdw7.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Prestige Digital - Premium Web Design Agency"/>
+    <meta name="twitter:description" content="We build high-converting websites for businesses that want to grow. Professional web design services from R5,000."/>
+    <meta name="twitter:image" content="https://cdn-ai.onspace.ai/onspace/project/screenshot/online/pre-site/9bgdw7.jpg"/>
+    <meta name="twitter:url" content="https://www.onspace.ai"/>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;family=Outfit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'syne': ['Syne', 'sans-serif'],
+                        'outfit': ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        'gold': '#D4AF37',
+                        'black': '#000000',
+                        'white': '#FFFFFF',
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        * {
+            font-family: 'Outfit', sans-serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Syne', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gold-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+        }
+    </style>
+</head>
+<body class="bg-white text-black antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-black flex items-center justify-center">
+                        <span class="text-gold text-2xl font-bold">P</span>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight font-syne">PRESTIGE DIGITAL</span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="#services" class="text-sm font-medium hover:text-gold transition-colors">Services</a>
+                    <a href="#about" class="text-sm font-medium hover:text-gold transition-colors">About</a>
+                    <a href="#portfolio" class="text-sm font-medium hover:text-gold transition-colors">Portfolio</a>
+                    <a href="#pricing" class="text-sm font-medium hover:text-gold transition-colors">Pricing</a>
+                    <a href="#faq" class="text-sm font-medium hover:text-gold transition-colors">FAQ</a>
+                    <a href="#contact" class="bg-black text-white px-6 py-3 text-sm font-semibold hover:bg-gold hover:text-black transition-all">Get Started</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-6 py-4 space-y-3">
+                <a href="#services" class="block text-sm font-medium hover:text-gold transition-colors py-2">Services</a>
+                <a href="#about" class="block text-sm font-medium hover:text-gold transition-colors py-2">About</a>
+                <a href="#portfolio" class="block text-sm font-medium hover:text-gold transition-colors py-2">Portfolio</a>
+                <a href="#pricing" class="block text-sm font-medium hover:text-gold transition-colors py-2">Pricing</a>
+                <a href="#faq" class="block text-sm font-medium hover:text-gold transition-colors py-2">FAQ</a>
+                <a href="#contact" class="block bg-black text-white px-6 py-3 text-sm font-semibold text-center hover:bg-gold hover:text-black transition-all mt-4">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 lg:pt-40 lg:pb-32 px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="max-w-4xl mx-auto text-center fade-in">
+                <h1 class="text-5xl lg:text-7xl font-bold tracking-tight leading-tight mb-6">
+                    Websites That Bring<br/>You <span class="text-gold">Customers</span>
+                </h1>
+                <p class="text-xl lg:text-2xl text-gray-600 mb-10 leading-relaxed font-light">
+                    We build high-converting websites for businesses that want to grow
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="#pricing" class="bg-black text-white px-10 py-4 text-base font-semibold hover:bg-gold hover:text-black transition-all w-full sm:w-auto text-center">
+                        View Packages
+                    </a>
+                    <a href="#portfolio" class="border-2 border-black text-black px-10 py-4 text-base font-semibold hover:bg-black hover:text-white transition-all w-full sm:w-auto text-center">
+                        See Our Work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 lg:py-32 px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">Our Services</h2>
+                <p class="text-xl text-gray-600 font-light">Premium web solutions tailored to your business</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 hover-lift fade-in">
+                    <div class="w-14 h-14 bg-black flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Website Design</h3>
+                    <p class="text-gray-600 leading-relaxed">Custom websites built from scratch to match your brand and convert visitors into customers.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white p-8 hover-lift fade-in">
+                    <div class="w-14 h-14 bg-black flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Website Redesign</h3>
+                    <p class="text-gray-600 leading-relaxed">Transform your outdated website into a modern, high-performing sales machine.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white p-8 hover-lift fade-in">
+                    <div class="w-14 h-14 bg-black flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">E-commerce Websites</h3>
+                    <p class="text-gray-600 leading-relaxed">Powerful online stores designed to maximize sales and provide seamless shopping experiences.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-white p-8 hover-lift fade-in">
+                    <div class="w-14 h-14 bg-black flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Landing Pages</h3>
+                    <p class="text-gray-600 leading-relaxed">High-conversion landing pages optimized to capture leads and drive results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 lg:py-32 px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">Why Choose Us</h2>
+                <p class="text-xl text-gray-600 font-light">We deliver excellence in every project</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center fade-in">
+                    <div class="w-20 h-20 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Clean, Modern Design</h3>
+                    <p class="text-gray-600 leading-relaxed">Beautiful aesthetics that match premium brands</p>
+                </div>
+                
+                <div class="text-center fade-in">
+                    <div class="w-20 h-20 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Mobile-First Optimization</h3>
+                    <p class="text-gray-600 leading-relaxed">Perfect experience on every device and screen size</p>
+                </div>
+                
+                <div class="text-center fade-in">
+                    <div class="w-20 h-20 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Built to Convert</h3>
+                    <p class="text-gray-600 leading-relaxed">Strategic design focused on turning visitors into customers</p>
+                </div>
+                
+                <div class="text-center fade-in">
+                    <div class="w-20 h-20 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Fast Loading Speed</h3>
+                    <p class="text-gray-600 leading-relaxed">Optimized performance for better user experience and SEO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 lg:py-32 px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
+                <div class="fade-in">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-6">About Prestige Digital</h2>
+                    <p class="text-xl text-gray-600 leading-relaxed mb-6">
+                        We are a passionate team of designers, developers, and digital strategists dedicated to helping businesses succeed online.
+                    </p>
+                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                        Founded on the belief that every business deserves a stunning online presence, we combine creativity with technical excellence to deliver websites that don&#39;t just look beautiful—they drive real results.
+                    </p>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Our mission is simple: create high-converting websites that help our clients grow their businesses, attract more customers, and stand out in their industry.
+                    </p>
+                </div>
+                <div class="fade-in">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&amp;h=600&amp;fit=crop" alt="Professional team collaborating on web design project" class="w-full h-auto rounded-sm shadow-2xl" loading="lazy"/>
+                </div>
+            </div>
+            
+            <!-- Values -->
+            <div class="grid md:grid-cols-3 gap-8 fade-in">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Quality First</h3>
+                    <p class="text-gray-600">We never compromise on quality. Every project receives our full attention and expertise.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">On Time Delivery</h3>
+                    <p class="text-gray-600">We respect deadlines and deliver projects on schedule without sacrificing quality.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Client-Focused</h3>
+                    <p class="text-gray-600">Your success is our success. We build lasting relationships with every client.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 lg:py-32 px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">Our Work</h2>
+                <p class="text-xl text-gray-600 font-light">Premium websites we&#39;ve crafted for our clients</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="group bg-white overflow-hidden hover-lift fade-in">
+                    <div class="h-64 bg-gradient-to-br from-gray-900 to-gray-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&amp;h=600&amp;fit=crop" alt="Modern business website with analytics dashboard" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" loading="lazy"/>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Corporate Website</h3>
+                        <p class="text-gray-600 mb-4">Professional business website with advanced features</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="text-xs px-3 py-1 bg-gray-100 font-medium">Design</span>
+                            <span class="text-xs px-3 py-1 bg-gray-100 font-medium">SEO</span>
+                            <span class="text-xs px-3 py-1 bg-gray-100 font-medium">Custom</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="group bg-white overflow-hidden hover-lift fade-in">
+                    <div class="h-64 bg-gradient-to-br from-blue-900 to-blue-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&amp;h=600&amp;fit=crop" alt="E-commerce online shopping platform" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" loading="lazy"/>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">E-commerce Store</h3>
+                        <p class="text-gray-600 mb-4">High-converting online store with payment integration</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="text-xs px-3 py-1 bg-gray-100 font-medium">E-commerce</span>
+                            <span class="text-xs px-3 py-1 bg-gray-100 font-medium">Payments</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="group bg-white overflow-hidden hover-lift fade-in">
+                    <div class="h-64 bg-gradient-to-br from-purple-900 to-pink-700 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&amp;h=600&amp;fit=crop" alt="Creative agency landing page design" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" loading="lazy"/>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Landing Page</h3>
+                        <p class="text-gray-600 mb-4">Conversion-optimized landing page for lead generation</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="text-xs px-3 py-1 bg-gray-100 font-medium">Landing</span>
+                            <span class="text-xs px-3 py-1 bg-gray-100 font-medium">Conversion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-20 lg:py-32 px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">Our Process</h2>
+                <p class="text-xl text-gray-600 font-light">Simple, transparent, and results-driven</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8 lg:gap-12">
+                <!-- Step 1 -->
+                <div class="text-center fade-in">
+                    <div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">1</div>
+                    <h3 class="text-xl font-bold mb-3">Discovery</h3>
+                    <p class="text-gray-600 leading-relaxed">We learn about your business, goals, and target audience</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="text-center fade-in">
+                    <div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">2</div>
+                    <h3 class="text-xl font-bold mb-3">Design</h3>
+                    <p class="text-gray-600 leading-relaxed">We create stunning designs tailored to your brand</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="text-center fade-in">
+                    <div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">3</div>
+                    <h3 class="text-xl font-bold mb-3">Development</h3>
+                    <p class="text-gray-600 leading-relaxed">We build your website with clean, optimized code</p>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="text-center fade-in">
+                    <div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">4</div>
+                    <h3 class="text-xl font-bold mb-3">Launch</h3>
+                    <p class="text-gray-600 leading-relaxed">We launch your site and ensure everything runs perfectly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 lg:py-32 px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">Pricing Plans</h2>
+                <p class="text-xl text-gray-600 font-light">Transparent pricing for every business size</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Essential Plan -->
+                <div class="bg-white p-8 lg:p-10 hover-lift fade-in border-2 border-gray-100">
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold mb-2">Essential</h3>
+                        <div class="flex items-baseline mb-4">
+                            <span class="text-5xl font-bold">R5,000</span>
+                        </div>
+                        <p class="text-gray-600">Perfect for small businesses starting their online journey</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Up to 5 pages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Mobile responsive design</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Contact form integration</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Basic SEO setup</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>1-2 design revisions</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="#contact" class="block text-center bg-black text-white py-4 px-6 font-semibold hover:bg-gold hover:text-black transition-all">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Professional Plan (Featured) -->
+                <div class="bg-black text-white p-8 lg:p-10 hover-lift fade-in transform lg:scale-105 relative">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gold text-black px-4 py-1 text-sm font-bold">
+                        MOST POPULAR
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold mb-2">Professional</h3>
+                        <div class="flex items-baseline mb-4">
+                            <span class="text-5xl font-bold">R9,000</span>
+                        </div>
+                        <p class="text-gray-300">Ideal for growing businesses that need more features</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Up to 10 pages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Custom design tailored to brand</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Mobile + tablet optimized</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Advanced SEO setup</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>WhatsApp integration</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>2-3 design revisions</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="#contact" class="block text-center bg-gold text-black py-4 px-6 font-semibold hover:bg-white transition-all">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Custom Plan -->
+                <div class="bg-white p-8 lg:p-10 hover-lift fade-in border-2 border-gray-100">
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold mb-2">Custom</h3>
+                        <div class="flex items-baseline mb-4">
+                            <span class="text-3xl font-bold">Let&#39;s Talk</span>
+                        </div>
+                        <p class="text-gray-600">For businesses with unique requirements and complex needs</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Fully custom design</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Advanced features &amp; integrations</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>E-commerce / booking systems</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Ongoing support &amp; maintenance</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Tailored to business needs</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="#contact" class="block text-center bg-black text-white py-4 px-6 font-semibold hover:bg-gold hover:text-black transition-all">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 lg:py-32 px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">What Our Clients Say</h2>
+                <p class="text-xl text-gray-600 font-light">Real results from real businesses</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-8 fade-in">
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">&#34;Prestige Digital transformed our online presence. Our website now looks professional and we&#39;ve seen a 40% increase in inquiries!&#34;</p>
+                    <div>
+                        <p class="font-bold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-600">CEO, TechStart Solutions</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-8 fade-in">
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">&#34;The team was professional, fast, and delivered exactly what we needed. Our new e-commerce site is generating sales daily!&#34;</p>
+                    <div>
+                        <p class="font-bold">Michael Naidoo</p>
+                        <p class="text-sm text-gray-600">Owner, Urban Fashion</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 p-8 fade-in">
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">&#34;Outstanding work! They really understand what businesses need. The website is beautiful, fast, and brings in customers daily.&#34;</p>
+                    <div>
+                        <p class="font-bold">Thandi Mkhize</p>
+                        <p class="text-sm text-gray-600">Founder, Elite Consulting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 lg:py-32 px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-600 font-light">Everything you need to know</p>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white overflow-hidden fade-in">
+                    <button class="faq-button w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-lg pr-8">How long does it take to build a website?</span>
+                        <svg class="w-6 h-6 flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                        <div class="p-6 pt-0 text-gray-600 leading-relaxed">
+                            Most projects are completed within 2-4 weeks, depending on the complexity and number of pages. We work efficiently without compromising quality to get your website live as quickly as possible.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="bg-white overflow-hidden fade-in">
+                    <button class="faq-button w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-lg pr-8">Do you offer website hosting?</span>
+                        <svg class="w-6 h-6 flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                        <div class="p-6 pt-0 text-gray-600 leading-relaxed">
+                            Yes! We can handle all aspects of hosting and domain setup for you. We work with premium hosting providers to ensure your website is fast, secure, and always online.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="bg-white overflow-hidden fade-in">
+                    <button class="faq-button w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-lg pr-8">Can I update the website myself after it&#39;s built?</span>
+                        <svg class="w-6 h-6 flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                        <div class="p-6 pt-0 text-gray-600 leading-relaxed">
+                            Absolutely! We can build your site on an easy-to-use content management system, and we provide training so you can make updates yourself. Alternatively, we offer maintenance packages if you prefer us to handle updates.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="bg-white overflow-hidden fade-in">
+                    <button class="faq-button w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-lg pr-8">What if I need changes after the website is live?</span>
+                        <svg class="w-6 h-6 flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                        <div class="p-6 pt-0 text-gray-600 leading-relaxed">
+                            We offer ongoing support and maintenance packages. Whether you need minor tweaks or major updates, we&#39;re here to help your website evolve with your business needs.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="bg-white overflow-hidden fade-in">
+                    <button class="faq-button w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-lg pr-8">Do you provide content writing services?</span>
+                        <svg class="w-6 h-6 flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                        <div class="p-6 pt-0 text-gray-600 leading-relaxed">
+                            Yes, we can help with professional copywriting that&#39;s optimized for both users and search engines. We&#39;ll work with you to create compelling content that converts visitors into customers.
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 6 -->
+                <div class="bg-white overflow-hidden fade-in">
+                    <button class="faq-button w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-lg pr-8">Will my website work on mobile phones?</span>
+                        <svg class="w-6 h-6 flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+                        <div class="p-6 pt-0 text-gray-600 leading-relaxed">
+                            Yes! Every website we build is fully responsive and optimized for mobile devices, tablets, and desktops. With most users browsing on mobile, this is a standard feature in all our packages.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-20 lg:py-32 px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-4">Get In Touch</h2>
+                <p class="text-xl text-gray-600 font-light">Tell us about your project and let&#39;s start building</p>
+            </div>
+            
+            <form id="contact-form" class="bg-gray-50 p-8 lg:p-12 fade-in">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block text-sm font-bold mb-2">Full Name *</label>
+                        <input type="text" id="name" name="name" required="" class="w-full px-4 py-3 border-2 border-gray-200 focus:border-gold focus:outline-none transition-colors"/>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-bold mb-2">Email Address *</label>
+                        <input type="email" id="email" name="email" required="" class="w-full px-4 py-3 border-2 border-gray-200 focus:border-gold focus:outline-none transition-colors"/>
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="phone" class="block text-sm font-bold mb-2">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required="" class="w-full px-4 py-3 border-2 border-gray-200 focus:border-gold focus:outline-none transition-colors"/>
+                    </div>
+                    <div>
+                        <label for="service" class="block text-sm font-bold mb-2">Service Interested In *</label>
+                        <select id="service" name="service" required="" class="w-full px-4 py-3 border-2 border-gray-200 focus:border-gold focus:outline-none transition-colors bg-white">
+                            <option value="">Select a service</option>
+                            <option value="website-design">Website Design</option>
+                            <option value="website-redesign">Website Redesign</option>
+                            <option value="ecommerce">E-commerce Website</option>
+                            <option value="landing-page">Landing Page</option>
+                            <option value="custom">Custom Project</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <label for="message" class="block text-sm font-bold mb-2">Project Details *</label>
+                    <textarea id="message" name="message" required="" rows="6" class="w-full px-4 py-3 border-2 border-gray-200 focus:border-gold focus:outline-none transition-colors resize-none" placeholder="Tell us about your project, goals, and any specific requirements..."></textarea>
+                </div>
+                
+                <div class="mb-6">
+                    <label for="budget" class="block text-sm font-bold mb-2">Budget Range</label>
+                    <select id="budget" name="budget" class="w-full px-4 py-3 border-2 border-gray-200 focus:border-gold focus:outline-none transition-colors bg-white">
+                        <option value="">Select your budget</option>
+                        <option value="under-5k">Under R5,000</option>
+                        <option value="5k-10k">R5,000 - R10,000</option>
+                        <option value="10k-20k">R10,000 - R20,000</option>
+                        <option value="20k-50k">R20,000 - R50,000</option>
+                        <option value="50k-100k">R50,000 - R100,000</option>
+                        <option value="100k-plus">R100,000+</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="w-full bg-black text-white py-4 px-8 text-base font-semibold hover:bg-gold hover:text-black transition-all">
+                    Send Message
+                </button>
+                
+                <div id="form-message" class="mt-4 p-4 rounded hidden"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-20 lg:py-32 px-6 lg:px-8 bg-black text-white">
+        <div class="max-w-4xl mx-auto text-center fade-in">
+            <h2 class="text-4xl lg:text-6xl font-bold mb-6">Ready to Grow Your Business?</h2>
+            <p class="text-xl lg:text-2xl text-gray-300 mb-10 leading-relaxed font-light">
+                Let&#39;s build a website that brings you customers
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://wa.me/27836119916?text=Hi%2C%20I%27m%20interested%20in%20getting%20a%20website%20built" target="_blank" class="bg-gold text-black px-10 py-4 text-base font-semibold hover:bg-white transition-all w-full sm:w-auto text-center inline-flex items-center justify-center">
+                    <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+                    </svg>
+                    WhatsApp Us
+                </a>
+                <a href="mailto:PrestigeDigitalAgency@outlook.com?subject=Website%20Inquiry" class="border-2 border-white text-white px-10 py-4 text-base font-semibold hover:bg-white hover:text-black transition-all w-full sm:w-auto text-center">
+                    Send Email
+                </a>
+            </div>
+            
+            <div class="mt-12 pt-12 border-t border-gray-800">
+                <div class="grid md:grid-cols-2 gap-6 text-left">
+                    <div>
+                        <h3 class="font-bold mb-2 text-gold">Phone</h3>
+                        <a href="tel:+27836119916" class="text-gray-300 hover:text-white transition-colors">083 611 9916</a>
+                    </div>
+                    <div>
+                        <h3 class="font-bold mb-2 text-gold">Email</h3>
+                        <a href="mailto:PrestigeDigitalAgency@outlook.com" class="text-gray-300 hover:text-white transition-colors">PrestigeDigitalAgency@outlook.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12 px-6 lg:px-8 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <!-- Brand -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 bg-white flex items-center justify-center">
+                            <span class="text-gold text-2xl font-bold">P</span>
+                        </div>
+                        <span class="text-xl font-bold tracking-tight font-syne">PRESTIGE DIGITAL</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed max-w-md">
+                        Premium web design agency helping businesses grow through high-converting, beautifully designed websites.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="text-gray-400 hover:text-gold transition-colors">Services</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-gold transition-colors">About</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-gold transition-colors">Portfolio</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-gold transition-colors">Pricing</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-gold transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h3 class="font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li><a href="tel:+27836119916" class="text-gray-400 hover:text-gold transition-colors">083 611 9916</a></li>
+                        <li><a href="mailto:PrestigeDigitalAgency@outlook.com" class="text-gray-400 hover:text-gold transition-colors break-all">PrestigeDigitalAgency@outlook.com</a></li>
+                    </ul>
+                    
+                    <div class="mt-6">
+                        <h3 class="font-bold mb-3">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+                                </svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-900 text-center text-gray-400 text-sm">
+                <p>© 2026 Prestige Digital. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/27836119916?text=Hi%2C%20I%27m%20interested%20in%20getting%20a%20website%20built" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:bg-green-600 transition-all hover:scale-110 z-50">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+        </svg>
+    </a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+            
+            // Close mobile menu when clicking on a link
+            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+            
+            // Fade-in animation on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+            
+            const fadeElements = document.querySelectorAll('.fade-in');
+            fadeElements.forEach(el => observer.observe(el));
+            
+            // FAQ accordion
+            const faqButtons = document.querySelectorAll('.faq-button');
+            
+            faqButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('svg');
+                    const isOpen = content.style.maxHeight && content.style.maxHeight !== '0px';
+                    
+                    // Close all other FAQ items
+                    document.querySelectorAll('.faq-content').forEach(item => {
+                        item.style.maxHeight = '0px';
+                    });
+                    
+                    document.querySelectorAll('.faq-button svg').forEach(svg => {
+                        svg.style.transform = 'rotate(0deg)';
+                    });
+                    
+                    // Toggle current item
+                    if (!isOpen) {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+            
+            // Contact form submission
+            const contactForm = document.getElementById('contact-form');
+            const formMessage = document.getElementById('form-message');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form data
+                const formData = new FormData(contactForm);
+                const data = Object.fromEntries(formData);
+                
+                // Show success message
+                formMessage.className = 'mt-4 p-4 bg-green-100 text-green-800 border-2 border-green-200';
+                formMessage.textContent = 'Thank you for your message! We\'ll get back to you within 24 hours.';
+                formMessage.classList.remove('hidden');
+                
+                // Open WhatsApp with pre-filled message
+                const whatsappMessage = `Hi, I'm ${data.name}. I'm interested in ${data.service}. Budget: ${data.budget || 'Not specified'}. Message: ${data.message}`;
+                const whatsappURL = `https://wa.me/27836119916?text=${encodeURIComponent(whatsappMessage)}`;
+                
+                // Reset form
+                contactForm.reset();
+                
+                // Open WhatsApp in new tab after a short delay
+                setTimeout(() => {
+                    window.open(whatsappURL, '_blank');
+                }, 1000);
+                
+                // Hide message after 5 seconds
+                setTimeout(() => {
+                    formMessage.classList.add('hidden');
+                }, 5000);
+            });
+        });
+    </script>
+
+
+</body></html>
